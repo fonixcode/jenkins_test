@@ -1,4 +1,5 @@
-agent {
+pipeline {
+  agent {
     docker {
         image "fonix/fonix_pg_redis_ruby2.1"
     }
@@ -13,4 +14,5 @@ agent {
         }
       }
     }
+  }
 }
