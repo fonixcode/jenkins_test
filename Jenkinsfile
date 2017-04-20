@@ -11,6 +11,7 @@ pipeline {
         sh "id"
         sh "pwd"
         sh "echo $HOME"
+        sh "cat /tmp/outside"
          
       }
     }
